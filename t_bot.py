@@ -121,6 +121,7 @@ async def main(maintenance_mode: bool = False):
     # print(reg_users.users_id)
     # print(reg_users.admins_id)
 
+
     # Если не указать storage, то по умолчанию всё равно будет MemoryStorage
     dp = Dispatcher(maintenance_mode=maintenance_mode, storage=MemoryStorage())
 
